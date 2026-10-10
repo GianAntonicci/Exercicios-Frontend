@@ -1,42 +1,197 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/css/style.css">
-    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
-
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaCore</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/exercicio150926/src/css/style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="header-conteudo">
-                <!-- <i class="bx bx-circle"></i> -->
-                <a href="#" class="novacore">NovaCore</a>
 
-            <nav class="menu">
-                <a href="#solucoes">Soluções</a>
-                <a href="#sobre">Sobre nós</a>
-                <a href="#clientes">Clientes</a>
-                <a href="#contato">Contato</a>
-            </nav>
+  <!-- HERO -->
+  <header class="hero">
+    <nav class="navbar container">
+      <a href="#" class="logo">
+        <i class="bx bx-circle"></i>
+        <span>NovaCore</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#servicos">Soluções</a></li>
+        <li><a href="#sobre">Sobre nós</a></li>
+        <li><a href="#depoimentos">Clientes</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content container">
+      <h1>Tecnologia para acelerar ideias,<br>equipes e negócios</h1>
+      <p>Soluções digitais sob medida para empresas que querem inovar com estratégia, clareza e eficiência.</p>
+      <a href="#contato" class="btn">Quero conhecer</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- SERVIÇOS -->
+    <section id="servicos" class="section section-dark">
+      <div class="container">
+        <span class="eyebrow">Nosso trabalho</span>
+        <h2 class="section-title">Serviços</h2>
+        <p class="section-desc">A NovaCore combina estratégia, design e desenvolvimento para criar soluções digitais que simplificam processos e fazem negócios evoluírem.</p>
+
+        <div class="cards-grid">
+          <article class="card">
+            <h3>Desenvolvimento web</h3>
+            <p>Sites, portais e plataformas modernas com foco em performance, usabilidade e escalabilidade.</p>
+          </article>
+          <article class="card">
+            <h3>Aplicações mobile</h3>
+            <p>Experiências mobile intuitivas para aproximar empresas e usuários em diferentes jornadas digitais.</p>
+          </article>
+          <article class="card">
+            <h3>Automação de processos</h3>
+            <p>Fluxos mais eficientes para reduzir tarefas manuais e melhorar a produtividade das equipes.</p>
+          </article>
+          <article class="card">
+            <h3>Integrações de sistemas</h3>
+            <p>Conexão entre ferramentas, APIs e plataformas para centralizar operações e informações.</p>
+          </article>
+          <article class="card">
+            <h3>Dados e analytics</h3>
+            <p>Dashboards e soluções analíticas para transformar dados em decisões mais inteligentes.</p>
+          </article>
+          <article class="card">
+            <h3>UX e interface</h3>
+            <p>Interfaces claras, funcionais e atrativas para melhorar a experiência dos produtos digitais.</p>
+          </article>
         </div>
+      </div>
+    </section>
 
-        <section class="hero">
-            <div class="hero-conteudo">
-                <h1>Tecnologia para acelerar</h1>
-                <h1>ideias,</h1>
-                <h1>equipes e negócios</h1>
-                <p>Soluções digitais sob medida para empresas que querem inovar com Tecnologia, clazera e eficiência.</p>
-                <button class="botao">
-                    <p>Quero conhecer</p>
-                </button>
-            </div>
-        </section>
+    <!-- SOBRE NÓS -->
+    <section id="sobre" class="section section-purple">
+      <div class="container">
+        <span class="eyebrow">NovaCore</span>
+        <h2 class="section-title">Sobre nós</h2>
 
+        <div class="about">
+          <div class="about-text">
+            <h3>Atuação em diferentes mercados e soluções digitais</h3>
+            <p>Somos uma empresa de tecnologia focada em desenvolver soluções digitais para negócios que buscam inovação com consistência. Atuamos lado a lado com nossos clientes na criação de produtos, melhoria de processos e evolução tecnológica.</p>
+            <p>Nossa trajetória é marcada pela colaboração entre estratégia, design e desenvolvimento. Com uma equipe multidisciplinar, entregamos soluções personalizadas para diferentes segmentos e desafios.</p>
+          </div>
+
+          <div class="about-image">
+            <span class="dot d1"></span>
+            <span class="dot d2"></span>
+            <span class="dot d3"></span>
+            <span class="dot d4"></span>
+            <span class="dot d5"></span>
+            <span class="dot d6"></span>
+          </div>
         </div>
-    </header>
+      </div>
+    </section>
 
+    <!-- DEPOIMENTOS -->
+    <section id="depoimentos" class="section section-dark">
+      <div class="container">
+        <span class="eyebrow">Nossos clientes</span>
+        <h2 class="section-title">Depoimentos</h2>
+
+        <div class="testimonials">
+          <article class="testimonial">
+            <div class="avatar"></div>
+            <p>"A parceria trouxe mais clareza para nossos processos e acelerou a entrega de um produto que estava parado há meses."</p>
+            <strong>Ana Beatriz Silva</strong>
+          </article>
+          <article class="testimonial">
+            <div class="avatar"></div>
+            <p>"O time entendeu nosso negócio rapidamente e transformou necessidades complexas em uma experiência simples para o usuário."</p>
+            <strong>Carlos Eduardo Lima</strong>
+          </article>
+          <article class="testimonial">
+            <div class="avatar"></div>
+            <p>"Conseguimos reduzir retrabalho e melhorar nossa operação sem perder qualidade na experiência digital."</p>
+            <strong>Fernanda Rocha</strong>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="section section-dark section-contact">
+      <div class="container">
+        <span class="eyebrow">Fale com a gente</span>
+        <h2 class="section-title">Contato</h2>
+
+        <div class="contact">
+          <div class="contact-image">
+            <span class="ring r1"></span>
+            <span class="ring r2"></span>
+            <span class="ring r3"></span>
+            <span class="ring r4"></span>
+            <span class="ring r5"></span>
+            <span class="ring r6"></span>
+          </div>
+
+          <form class="contact-form">
+            <h3>Conheça melhor nossas soluções</h3>
+            <p>Preencha o formulário para entrar em contato com nossa equipe.</p>
+
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome">
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email">
+
+            <label for="empresa">Empresa</label>
+            <input type="text" id="empresa" name="empresa">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+
+            <button type="submit" class="btn">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <a href="#" class="footer-logo">
+        <i class="bx bx-circle"></i>
+        <span>NovaCore</span>
+      </a>
+
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h4>A empresa</h4>
+          <a href="#">Nossa história</a>
+          <a href="#servicos">Soluções</a>
+          <a href="#">Trabalhe conosco</a>
+          <a href="#">Política de privacidade</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contato</h4>
+          <a href="tel:+551140000000">+55 11 4000-0000</a>
+          <a href="mailto:contato@novacore.com">contato@novacore.com</a>
+        </div>
+        <div class="footer-col">
+          <h4>Onde estamos</h4>
+          <span>Av. Paulista, 1000</span>
+          <span>Bela Vista — São Paulo, SP</span>
+          <span>CEP 01310-100</span>
+        </div>
+      </div>
+
+      <p class="copyright">&copy; 2026 NovaCore. Todos os direitos reservados.</p>
+    </div>
+  </footer>
 
 </body>
 </html>
